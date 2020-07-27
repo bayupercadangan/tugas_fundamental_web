@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas Fundamental Web</title>
+  </head>
+  <body>
+    <navbar-app title="Food Forever!"></navbar-app>
+    <div class="container" style="margin-top: 10px;">
+      <div class="row">
+        <div class="input-field col s3">
+          <input id="myInputFoodName" type="text" class="validate" />
+          <label for="myInputFoodName">Search Food Name</label>
+        </div>
+        <div class="input-field col s1">
+          <button id="myButtonSearchFood" class="btn waves-effect waves-light">
+            Search <i class="material-icons right">send</i>
+          </button>
+        </div>
+        <div class="input-field col s1">
+          <button
+            id="myButtonRandomFood"
+            class="btn waves-effect blue waves-light"
+          >
+            Random
+          </button>
+        </div>
+      </div>
+      <div id="myListFood" class="row"></div>
+    </div>
+  </body>
+</html>
